@@ -1,0 +1,10 @@
+command /discord:
+    Trigger:
+        Send "&b<link:Link Goes Here>Click me!<reset>"
+        
+options:
+    prefix: &c&lServer &8| &7
+
+every 5 minutes:
+    broadcast "{@prefix}Make sure to join our discord /discord"
+    
